@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 class TruncaterTest extends TestCase
 {
-    private const FULL_NAME = 'Ганенков Андрей Александрович';
+    private const FULL_NAME = 'Ганченков Андрей Александрович';
 
     public function testTruncateEmptyString(): void
     {
